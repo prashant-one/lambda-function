@@ -27,8 +27,9 @@
 
     <distributionManagement>
         <repository>
-            <id>space-lambda-functions</id>
-            <url>https://maven.pkg.jetbrains.space/pdashboard/p/main/lambda-functions</url>
+            <id>github</id>
+            <name>lambda-function</name>
+            <url>https://maven.pkg.github.com/prashant-one/lambda-function</url>
         </repository>
     </distributionManagement>
 
