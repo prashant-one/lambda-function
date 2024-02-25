@@ -2,7 +2,26 @@
 ### This library for string related lambda functions we can use those function as a pipeline to get some work done
 
 - How to use it
+  add below repository to pom.xml so that it can sync with github maven
+```
+<repositories>
+		<repository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/prashant-one/lambda-function</url>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>daily</updatePolicy>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
+	</repositories>
+```
+ 
   install the dependency
+  
 ```
 <dependency>
   <groupId>com.prashant</groupId>
